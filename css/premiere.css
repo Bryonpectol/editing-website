@@ -34,7 +34,6 @@
     background-color: black;
 }
 
-
   .nav-link-main {
     text-decoration: none;
     float: right;
@@ -64,10 +63,6 @@
     margin: 20px;
     font-size: 20px;
     font-family: "Rubik", sans-serif;
-  }
-
-  .h2-title {
-    color: #B52A08;
   }
 
   label {
