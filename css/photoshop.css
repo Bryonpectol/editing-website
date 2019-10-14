@@ -30,7 +30,7 @@
   }
   
   .nav-link:hover {
-    color: white;
+    color: #00C9FF;
     background-color: black;
 }
 
@@ -67,7 +67,10 @@
   }
 
   .h2-title {
-    color: #B52A08;
+    color: #00C9FF;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
   }
 
   label {
