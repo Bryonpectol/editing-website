@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css?family=Rubik|Ubuntu&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/premiere.css" />
+    <link rel="stylesheet" href="css/photoshop.css" />
   </head>
   <body>
     <a href="https://bryonseditingsite.netlify.com/"
@@ -23,24 +23,24 @@
     >
     <div id="nav-div">
       <a href="gallery.html" class="nav-link">Gallery</a>
-      <a href="editing.html" class="nav-link">Editing</a>
+      <a href="editing.html" class="nav-link-main">Editing</a>
       <a href="https://bryonseditingsite.netlify.com/" class="nav-link">Home</a>
     </div>
 
     <div id="first-div">
       <form class="form" name="contact" method="POST" data-netlify="true">
         <p>
-          <label class="h2-title">Adobe Premiere</label>
+          <label class="h2-title">Fill out this info so I can help you!</label>
         </p>
-
         <p>
           <label
             >Your First Name:
             <input
+              required
               class="input"
               type="text"
               name="first_name"
-              placeholder="John Smith"
+              placeholder="John"
           /></label>
         </p>
 
@@ -48,43 +48,48 @@
           <label
             >Your Last Name:
             <input
+              required
               class="input"
               type="text"
               name="last_name"
-              placeholder="John Smith"
+              placeholder="Smith"
           /></label>
         </p>
 
         <p>
           <label
             >Adobe software you want:
-            <input
-              class="input"
-              type="text"
-              name="software"
-              placeholder="John Smith"
-          /></label>
+            <select required>
+              <option value="photoshop">Photoshop</option>
+              <option value="illustrator">Illustrator</option>
+              <option value="premiere">Premiere</option>
+              <option value="indesign">InDesign</option>
+              <option value="xd">XD</option>
+            </select></label
+          >
         </p>
 
         <p>
           <label
             >Your Email:
             <input
+              required
               class="input"
               type="email"
               name="email"
-              placeholder="JohnSmith@example.com"
+              placeholder="youremail@example.com"
           /></label>
         </p>
 
         <p>
-          <label>Your Image: <input type="file" name="file"/></label>
+          <label>Your Image: <input class="file" required type="file" name="file"/></label>
         </p>
 
         <p>
           <label
             >Message:
             <textarea
+              required
               name="message"
               placeholder="Your message here..."
             ></textarea
