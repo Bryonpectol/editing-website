@@ -13,10 +13,12 @@
   }
   
   #nav-div {
-      background-color: white;
-      /* width: 100%; */
-      float: right;
-  }
+    background-color: white;
+    /* width: 100%; */
+    float: right;
+    position: fixed;
+    margin-left: 76.05%;
+}
   
   .nav-link {
     text-decoration: none;
